@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const ListItem = () => {
-  return (
-    <li>Hit the gym</li>
-  )
-}
+    return (
+        <li>
+            <span>Hit the gym</span> <span className="close">x</span>
+        </li>
+    );
+};
 
-export default ListItem
+export default ListItem;

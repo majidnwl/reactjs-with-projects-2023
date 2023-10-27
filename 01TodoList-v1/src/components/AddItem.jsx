@@ -3,7 +3,7 @@ import React from "react";
 const AddItem = () => {
     return (
         <>
-            <input type="text" id="myInput" placeholder="Title..." />
+            <input type="text" placeholder="Title..." />
             <span className="addBtn">Add</span>
         </>
     );

@@ -3,7 +3,7 @@ import ListItem from "./ListItem";
 
 const TodoList = () => {
     return (
-        <ul id="myUL">
+        <ul>
             <ListItem />
         </ul>
     );
